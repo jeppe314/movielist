@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie watchlist</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <h1><a href="index.html">Find your film</a></h1>
+        <a href="watchlist.html">My watchlist</a>
+      </header>
+      <div id="searchEl">
+        <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        <input type="text" id="searchInput" placeholder="Search for a movie"></input>
+        <button type="button" id="searchBtn">Search</button>
+      </div>
+      <section id="mid">
+        <div id="placeholder-mid">
+          <i class="fa-solid fa-film fa-5x" id="logoEl"></i>
+          <p id="placeholderEl">Start exploring</p>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
